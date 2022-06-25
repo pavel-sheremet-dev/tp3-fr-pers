@@ -32,10 +32,10 @@ const Meta = () => {
 
       <link
         rel="canonical"
-        href="https://spv-goit-tp3-br.netlify.app/"
+        href="https://spv-goit-tp3-per.netlify.app/"
         hreflang={language}
       />
-      <link rel="alternate" href="https://spv-goit-tp3-br.netlify.app/" />
+      <link rel="alternate" href="https://spv-goit-tp3-per.netlify.app/" />
       <title>{metatext.title}</title>
     </Helmet>
   );
