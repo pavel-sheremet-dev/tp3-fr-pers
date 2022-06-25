@@ -17,6 +17,7 @@ const SignIn = () => {
     <SectionStyled>
       <BackgroundContainer>
         <SignContainer>
+          <h2 className="isHidden">{t('signinTitle')}</h2>
           <ContentBox>
             <GoogleButton className={'sign'} />
             <SignInForm />

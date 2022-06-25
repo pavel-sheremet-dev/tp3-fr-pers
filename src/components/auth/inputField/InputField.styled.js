@@ -52,6 +52,7 @@ export const LabelStyled = styled.label`
   }
 
   & .error {
+    display: block;
     font-size: 8px;
     line-height: 1.25;
   }

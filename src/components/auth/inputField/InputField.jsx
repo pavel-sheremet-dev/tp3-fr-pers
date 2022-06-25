@@ -13,7 +13,7 @@ const InputField = ({ label, required, ...props }) => {
         ) : null}
         <input className="text-input" {...field} {...props} />
         {meta.touched && meta.error ? (
-          <div className="error">{meta.error}</div>
+          <span className="error">{meta.error}</span>
         ) : null}
       </LabelStyled>
     </>

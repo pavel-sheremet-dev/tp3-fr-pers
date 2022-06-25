@@ -16,6 +16,7 @@ const Signup = () => {
     <SectionStyled>
       <BackgroundContainer forSignup>
         <SignContainer forSignup>
+          <h2 className="isHidden">{t('signupTitle')}</h2>
           <ContentBox>
             <GoogleButton className={'sign'} />
             <SignUpForm />

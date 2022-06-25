@@ -14,6 +14,8 @@ i18next
         translation: {
           login: 'Увійти',
           signup: 'Реєстрація',
+          signupTitle: 'Реєстрація користувача',
+          signinTitle: 'Вхід в систему',
           registering: 'Зареєструватися',
           help: 'Допоможе вам',
           goal: 'Швидше сформулювати свою ціль і розпочати читати',
@@ -132,6 +134,8 @@ i18next
         translation: {
           login: 'Login',
           signup: 'Register',
+          signupTitle: 'User registration',
+          signinTitle: 'Login',
           registering: 'Register',
           help: 'Will help you to',
           goal: 'Create your goal faster and proceed to read',
