@@ -78,6 +78,7 @@ export const ButtonType2 = styled(Button)`
 
   &:disabled {
     background-color: ${({ theme }) => theme.colors.lightText};
+    outline-color: ${({ theme }) => theme.colors.lightText};
   }
 `;
 
